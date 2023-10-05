@@ -9,7 +9,9 @@ const Tasks = () => {
   const [isOpen, setIsOpen] = useState(false);
   const { tasks } = useSelector((state) => state.taskSlice);
 
-
+  // const runningTask = tasks.filter((item) => item.status === "running");
+  // const pendingTask = tasks.filter((item) => item.status === "pending");
+  // const completedTask = tasks.filter((item) => item.status === "done");
 
   return (
     <div className="h-screen grid grid-cols-12">
