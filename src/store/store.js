@@ -1,6 +1,6 @@
 import { configureStore } from "@reduxjs/toolkit";
-import taskSlice from "./feature/task/taskSlice";
-import userSlice from "d:/iftekhar-practice/taskmaster-redux-acc/src/redux/feature/user/userSlice";
+import taskSlice from "./feature/task/taskSlice.js";
+import userSlice from "./feature/user/userSlice.js";
 
 const store = configureStore({
   reducer: {
