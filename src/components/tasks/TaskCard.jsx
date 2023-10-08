@@ -1,6 +1,6 @@
 import { ArrowRightIcon, TrashIcon } from "@heroicons/react/24/outline";
 import { useDispatch } from "react-redux";
-import { removeTask, updateStatus } from "../../Redux/feature/task/taskSlice";
+import { removeTask,updateStatus } from "../../store/feature/task/taskSlice";
 
 const TaskCard = ({ task }) => {
   const dispatch = useDispatch();
